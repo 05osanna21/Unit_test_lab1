@@ -28,8 +28,8 @@ public class SimpleTestClass {
     }
     @Test
     public void testDivisionTwoPositiveValues(){
-        int actualResult = calc.division(10,5);
-        assertEquals("10/5 must be 2", 2,actualResult);
+        int actualResult = calc.division(15,5);
+        assertEquals("10/5 must be 3", 3,actualResult);
     }
     @Test
     public  void testSquareRoot(){
