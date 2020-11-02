@@ -26,7 +26,7 @@ public class MediumTestClass {
     //TODO (**)
     @Test
     public void testBiggerNumber(){
-        int actualResult=calc.biggerNumber(12,5);
+        int actualResult=calc.biggerNumber(111111111111,2222222222222);
         assertEquals("a",12,actualResult);
     }
     //add tests for new method - biggest value
